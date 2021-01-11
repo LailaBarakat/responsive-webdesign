@@ -1,0 +1,29 @@
+@media only screen and (max-width: 300px){
+    body{ background-color: red;}
+    h1{font-size: small}
+    p {font-size: small}
+}
+
+@media only screen and (min-width: 301px) and (max-width: 768px){
+    body{background-color: green;}
+    #small{width: 75%;}
+    #medium{width: 33%;}
+    #large{width: 100%;}
+    h1{font-size: medium}
+    p {font-size: medium}
+
+}
+
+@media only screen and (min-width: 769px) {
+    body{background-color: blue;}
+    #small{float: left;display: inline-block;width: 33%;}
+    #medium{float: left;display: inline-block;width: 33%}
+    #large{float:right;display: inline-block;width: 33%}
+    h1{font-size: large}
+    p {font-size: larger}
+
+
+}
+
+
+
